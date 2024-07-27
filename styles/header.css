@@ -1,0 +1,73 @@
+header {
+    background-color: black;
+    color: white;
+    font-family: roboto, Arial;
+    padding: 20px 20px 20px 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    z-index: 200;
+}
+
+header p{
+    font-size: 17px;
+    margin: 0;
+    color: grey
+}
+
+header p.active{
+    color: white;
+}
+
+header p:hover{
+    color: white;
+}
+
+.supercell-logo {
+    width: 60px;
+}
+
+header .left-section{
+    /* background-color: lightblue; */
+    
+    min-width: 490px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.15s;
+    margin-right: 20px;
+    
+}
+
+header .right-section {
+    /* width: 380px; */
+    min-width: 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+header .right-section img{
+    width: 30px;
+    transition: filter 0.15s;
+    
+}
+
+header .right-section img:hover{
+    filter: brightness(0) invert(1);
+}
+
+.search-bar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar-container .search-icon{
+    width: 15px;
+}
+

@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+p{
+    font-family: roboto, Arial;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+h2 {
+    font-family: SupercellHeadline-Heavy, Arial;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
